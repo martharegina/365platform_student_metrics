@@ -1,13 +1,12 @@
 # 🎓 365 Data Science: Student Engagement Analysis
 In the digital era, e-learning platforms play a crucial role in providing flexible and high-quality education access. 365 Data Science is one of the leading platforms that enables students to learn data science and AI training holistically. To ensure an optimal learning experience and improve retention rates, it is essential to understand how students interact with the platform, from registration to content engagement and eventually subscription purchases.
 
-## 📂 Data Source
-The dataset includes student registration, engagement, and purchase history, providing a comprehensive view of their learning journey.
-
-## ⚙️ Prerequisites
-- SQL
-- SQL Editor
-
+## 📂 Dataset
+The project uses three datasets:
+- student_info, which includes the columns student_id and date_registered.
+- student_engagement, which includes the columns student_id and date_watched.
+- student_purchases, which includes the columns purchase_id, student_id, and date_purchased.
+- 
 ## 🎯 Objectives
 This case study explores key metrics such as the free-to-paid conversion rate, the average time from registration to first engagement, and the time from first engagement to purchase. Additionally, retention rate and churn rate will be analyzed to understand the sustainability of student subscriptions. By identifying these activity patterns, 365 Data Science can optimize engagement strategies, enhance user retention, and drive long-term growth.
 
@@ -34,7 +33,9 @@ A very high churn rate (88.71%) indicates that most students who start watching 
 Only 5.57% of students make a purchase on the same day they start watching. This suggests that most students need more time to explore the platform before making a purchasing decision.
 
 ## 🏆 Conclusion
-The platform faces key problems including:
-- A low conversion rate and high churn rate indicate difficulties in converting free users into paying customers.
-- The long average time from registration to purchase suggests potential improvements in onboarding and promotional strategies.
-- A low retention rate implies that the platform needs to enhance the appeal of its content and long-term value for paying subscribers.
+The platform faces key challenges, including:
+- A low conversion rate and high churn rate, indicating difficulties in converting free users into paying customers.
+- A long average time from registration to purchase, suggesting the need for improvements in onboarding and promotional strategies.
+- A low retention rate, implying that the platform needs to enhance the appeal of its content and the long-term value for paying subscribers.
+
+If you have any questions or suggestions, feel free to reach out to me!😸
