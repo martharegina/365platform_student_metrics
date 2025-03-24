@@ -6,7 +6,7 @@ The project uses three datasets:
 - student_info, which includes the columns student_id and date_registered.
 - student_engagement, which includes the columns student_id and date_watched.
 - student_purchases, which includes the columns purchase_id, student_id, and date_purchased.
-- 
+  
 ## 🎯 Objectives
 This case study explores key metrics such as the free-to-paid conversion rate, the average time from registration to first engagement, and the time from first engagement to purchase. Additionally, retention rate and churn rate will be analyzed to understand the sustainability of student subscriptions. By identifying these activity patterns, 365 Data Science can optimize engagement strategies, enhance user retention, and drive long-term growth.
 
